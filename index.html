@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 6 TASK</title>
+    <style>
+        .container{
+            margin-top: 50px;
+            
+        }
+        header{
+            font-family: 'Times New Roman', Georgia, Times, serif;
+            display: flex;
+            font-size: 15px;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            padding: 18px;
+            height: 18px;
+            z-index: 1;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            justify-content: space-between; 
+            
+        }
+        nav{
+            display: flex;
+            gap:50px;
+            padding-right: 60px;
+        }
+        .image-container{
+            position: relative;
+        }
+        .image-text{
+            color: white;
+           position: absolute;
+           font-size: 50px;
+           left: 20px;
+           bottom: 20px;
+        }
+        .a{
+            margin-top: 80px;
+            display: flex;
+            flex-basis: 50%; 
+            justify-content: center;  
+        }
+        .content1{
+            display: flex;
+            flex-basis: 50%;
+            flex-direction: column;
+            align-items: center; 
+            padding-left: 60px; 
+            margin-right: 140px; 
+        }
+        .img2{ 
+           padding-left: 240px;
+        }
+        .content2{
+            margin-top: 40px;
+            display: flex;
+            flex-basis: 50%;
+            flex-direction: column;
+
+        }
+        .b{
+            margin-top: 200px;
+            display: flex;
+            flex-basis: 50%;
+            padding-left:240px;
+
+        }
+        .img3{
+            padding: 40px 20px;
+            height: 30vh;
+        }
+        .c{
+            margin-top: 200px;
+            padding-left:240px;
+            margin-right: 260px;
+        }
+        input{
+            width: 80%;
+            height: 30px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        .d{
+           background-color: silver;
+           padding: 30px; 
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div>Gourmet au Catering</div>
+        <nav>
+            <div>About</div>
+            <div>Menu</div>
+            <div>contact</div>
+        </nav>
+    </header>
+    <div class="image-container">
+        <img src="https://www.w3schools.com/w3images/hamburger.jpg" alt="Burger pic" width="100%">
+        <div class="image-text">Le Catering</div>    
+    </div>
+    <div class="a">
+        <div class="img2"><img src="https://www.w3schools.com/w3images/tablesetting2.jpg" width="600" height="650"></div>
+        <div class="content1">
+            <h1 style="font-size: 36px; letter-spacing: 5px; font-family: Playfair Display;">About Catering</h1>
+            <h5 style="font-size: 18px; font-family: Playfair Display;  letter-spacing: 5px;">Tradition since 1889</h5>
+            <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px; word-spacing: 5px; line-height: 25px;">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span style="background-color: whitesmoke; width: 4vw; padding: 5px">seasonal</span>ingredients. </p>
+            <p style="font-family: 'Times New Roman', Times, serif; font-size: 18px; word-spacing: 5px; line-height: 25px; color: grey;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <div class="b">
+        <div class="content2">
+            <h1 style="font-size: 36px; letter-spacing: 5px; font-family: Playfair Display;"><center>Our Menu</center></h1>
+            <h4 style="font-size: 20px; font-family: Playfair Display;  letter-spacing: 5px;">Bread Basket</h4>
+            <p style="font-size: 15px; font-family:'Times New Roman', Times, serif ; ">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h4 style="font-size: 20px; font-family: Playfair Display;  letter-spacing: 5px;">Honey Almond Granola with Fruits</h4>
+            <p style="font-size: 15px; font-family:'Times New Roman', Times, serif ;">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <h4 style="font-size: 20px; font-family: Playfair Display;  letter-spacing: 5px;">Belgian Waffle</h4>
+            <p style="font-size: 15px; font-family:'Times New Roman', Times, serif ;">Vanilla flavored batter with malted flour 7.50</p>
+            <h4 style="font-size: 20px; font-family: Playfair Display;  letter-spacing: 5px;">Scrambled eggs</h4>
+            <p style="font-size: 15px; font-family:'Times New Roman', Times, serif ;">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <h4 style="font-size: 20px; font-family: Playfair Display;  letter-spacing: 5px;">Blueberry Pancakes</h4>
+            <p style="font-size: 15px; font-family:'Times New Roman', Times, serif ;">With syrup, butter and lots of berries 8.50</p>
+        </div>
+        <div class="img3"><img src="https://www.w3schools.com/w3images/tablesetting.jpg" width="100%"></div>
+    </div><br><br>
+    <div class="c">
+        <h1 style="font-size: 36px; font-family: Playfair Display; letter-spacing: 5px;">Contact</h1>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+        <p style="font-family: 'Times New Roman', Times, serif; font-style: 18px; color: #607d8b;">Catering Service, 42nd Living St, 43043 New York, NY</p>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+        <input type="text" placeholder="Name"><br><br>
+        <input type="number" placeholder="How many people"><br><br>
+        <input type="datetime-local"><br><br>
+        <input type="text" placeholder="Message \ Special requirements"><br><br>
+        <button>Submit Message</button>
+    </div><br><br><br><br>
+    <div class="d">
+        <center><p>Powered by w3.css</p></center>
+    </div>
+
+</div>
+</body>
+</html>
